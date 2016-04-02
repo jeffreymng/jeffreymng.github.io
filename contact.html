@@ -4,6 +4,17 @@
   <title>Contact me!</title>
 </head>
 <body>
-
+  <p>Leave your name and email here and I will contact you!</p>
+  <form action="https://httpbin.org/post" method="post">
+    <div>
+      <label>Name:</label>
+      <input type="text" name="name">
+    </div>
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+    <button type="submit">Submit</button>
+  </form>
 </body>
 </html>
