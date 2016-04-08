@@ -6,15 +6,15 @@
 </head>
 <body>
   <h1>Computer Parts and Accessories</h1>
-    <section>
+    <section class="parts">
       <h3>The Processor</h3>
         <p>The processor, or CPU (central processing unit) is one of the most important parts of a computer. The CPU executes all the programs and commands that run on a computer. You could call it the brain of a computer. The speed of a CPU is measured in hertz and the faster a CPU is, the better. There are two main manufacturers of CPU's for computers:</p>
-        <ul>
+        <ul id="cpu">
           <li>Intel</li>
           <li>Advanced Micro Devices(AMD)</li>
         </ul>
         <p>Since I'm more familiar with Intel processors, here a few of their processors and specifications.</p>
-        <table border=1>
+        <table id="intel">
           <tr>
             <th>Name</th>
             <th>Speed</th>
@@ -37,51 +37,53 @@
           </tr>
         </table>
     </section>
-    <section>
+    <section class="parts">
       <h3>The Motherboard</h3>
         <p>The motherboard connects all the components of a computer together and allows them to talk to each other. This includes the CPU, RAM, Hard Drive, Graphics Card, and any and all accessories and peripherals (mouse, keyboard, monitor). Some of the more popular motherboard manufacturers are:</p>
-        <ul>
+        <ul id="mobo">
           <li>Asus</li>
           <li>Gigabyte</li>
           <li>MSI</li>
           <li>ASRock</li>
         </ul>
     </section>
-    <section>
+    <section class="parts">
       <h3>Power Supply</h3>
         <p>The power supply unit (PSU) provides the power and electricity to your computer. It is connected to the motherboard, hard drive, graphics card, and any fans that are in the case.</p>
     </section>
-    <section>
+    <section id="drive" class="parts">
       <h3>Hard Drive or Solid State Drive</h3>
         <p>The hard disk drive stores all of your computer's data on it. Simple as that! They vary by size in storage. Here are some more popular HDD manufacturers.</p>
-        <ul>
+        <ul id="hdd">
           <li>Samsung</li>
           <li>Seagate</li>
           <li>Western Digital</li>
           <li>Hitachi</li>
         </ul>
     </section>
-    <section>
+    <section class="parts">
       <h3>RAM</h3>
         <p>RAM stands for Random Access Memory. This is where your computer temporarily stores data that it needs to access quickly. Any program that you open will have its data temporarily stored on the computer's RAM. RAM varies in size. Most computers these days have between 4-8 GB of RAM. Popular manufacturers of RAM are:</p>
-        <ul>
+        <ul id="ram">
           <li>Kingston</li>
           <li>Corsair</li>
           <li>Crucial</li>
           <li>G.Skill</li>
         </ul>
     </section>
-    <section>
+    <section class="parts">
       <h3>Computer Case</h3>
         <p>The computer case holds all the parts of your computer in it. This includes everything on this list! Just make sure that the motherboard fits in the case!</p>
     </section>
 
     <p>Here's a picture of my computer. I realize it would look better without all of those wires in there, but I kind of need those.</p>
-    <img src="my computer.jpg" alt="My Computer" height=720 width=1080 />
+    <img src="my computer.jpg" alt="My_Computer"/>
 
     <p><a href="http://lifehacker.com/5826509/how-to-build-a-computer-from-scratch-lesson-1-hardware-basics">Click here to view a website like mine</a></p>
     <p>After scrolling past all the scripts in the beginning, I can see that this website is actually a lot like mine in that it uses similar header and paragraph elements and adds pictures to illustrate what they are talking about. There are also a lot of in-line elements linking to other articles on the same website.</p>
 
-    <footer><a href=contact.html>Questions? Click here for info on how to contact me.</a></footer>
+    <div id="footer">
+      <footer><a href=contact.html>Questions? Click here for info on how to contact me.</a></footer>
+    </div>
 </body>
 </html>
